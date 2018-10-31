@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+.post-container {
+    flex-direction: column;
+    align-items:center;
+    border: 0.5px solid black;
+    height: 350px;
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+    background-image: url("wood.jpeg");
+    background-size: contain;
+}
+
+.title-link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.author {
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.image {
+    height: 175px;
+    width: 175px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
